@@ -7,11 +7,9 @@ import "animate.css";
 
 export default function Principal() {
 
-  const linkGithub = 'https://img.icons8.com/?size=100&id=106562&format=png&color=2BD9A8'
-
-  const linkEmail = 'https://img.icons8.com/?size=100&id=ahxVUuMZMzJy&format=png&color=2BD9A8'
-
-  const linkLinkedin = 'https://img.icons8.com/?size=100&id=98960&format=png&color=2BD9A8'
+  const linkGithub = "src/assets/social/github.png"
+  const linkEmail = "src/assets/social/email.png"
+  const linkLinkedin = "src/assets/social/linkedin.png"
 
 
   useEffect(() => {
@@ -62,17 +60,22 @@ export default function Principal() {
           </div>
           <div className="social">
             <img
-              src="src/assets/social/email.png"
+              src={linkEmail}
               alt="icon email"
+              width={"50px"}
+              height={"50px"}
             />
             <img
               src={linkGithub}
               alt="icon github"
+              width={"50px"}
+              height={"50px"}
             />
             <img
-              src="src/assets/social/linkedin.png"
+              src={linkLinkedin}
               alt="icon linkedin"
-
+              width={"50px"}
+              height={"50px"}
             />
           </div>
           <div className="more">
@@ -87,6 +90,7 @@ export default function Principal() {
             <div className="text-shpere">
               <span className="tagcloud"></span>
             </div>
+            <h3 id="info">Tecnologias com que trabalhei</h3>
           </div>
         </div>
       </section>

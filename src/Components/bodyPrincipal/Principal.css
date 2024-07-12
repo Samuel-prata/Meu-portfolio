@@ -25,6 +25,7 @@
     border-radius: 50%;
     height: 60vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -127,3 +128,6 @@
     color: white;
 }
             
+#info{
+    color: red;
+}
