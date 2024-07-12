@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Header.css"
+import logo from '../../assets/logo.png'
 
 export default function Header() {
 
@@ -7,7 +8,7 @@ export default function Header() {
     <>
     <nav>
         <div className='container1'>
-            <img src='src/assets/logo.png' alt="" />
+            <img src={logo} alt="" />
         <p>Sobre mim</p>
         </div>
          
