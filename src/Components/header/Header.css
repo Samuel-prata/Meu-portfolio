@@ -1,0 +1,29 @@
+nav{
+    background-color: #0D0D0D;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+.container2{
+    width: 40%;
+}
+nav p, ul li {
+    color: #2BD9A8;
+    font-size: 24px;
+}
+
+.topics{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 24px;
+}
