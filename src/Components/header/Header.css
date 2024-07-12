@@ -5,6 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: #2BD9A8 solid 2px;
 }
 
 .container1{
@@ -18,7 +19,7 @@ nav{
 }
 nav p, ul li {
     color: #2BD9A8;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .topics{
@@ -26,4 +27,11 @@ nav p, ul li {
     justify-content: space-evenly;
     list-style: none;
     font-size: 24px;
+}
+
+.topics li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.2 color;
 }

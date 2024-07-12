@@ -6,6 +6,14 @@ import "./Principal.css";
 import "animate.css";
 
 export default function Principal() {
+
+  const linkGithub = 'https://img.icons8.com/?size=100&id=106562&format=png&color=2BD9A8'
+
+  const linkEmail = 'https://img.icons8.com/?size=100&id=ahxVUuMZMzJy&format=png&color=2BD9A8'
+
+  const linkLinkedin = 'https://img.icons8.com/?size=100&id=98960&format=png&color=2BD9A8'
+
+
   useEffect(() => {
       const container = ".tagcloud";
       const texts = [
@@ -60,7 +68,7 @@ export default function Principal() {
               height={"50px"}
             />
             <img
-              src="src/assets/social/github.png"
+              src={linkGithub}
               alt="icon github"
               width={"50px"}
               height={"50px"}
