@@ -2,14 +2,13 @@ import { ReactDOM, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
 import Header from "../header/Header";
 import TagCloud from "TagCloud";
+import linkGithub from '../../assets/social/github.png'
+import linkEmail from '../../assets/social/email.png'
+import linkLinkedin from '../../assets/social/linkedin.png'
 import "./Principal.css";
 import "animate.css";
 
 export default function Principal() {
-
-  const linkGithub = "src/assets/social/github.png"
-  const linkEmail = "src/assets/social/email.png"
-  const linkLinkedin = "src/assets/social/linkedin.png"
 
 
   useEffect(() => {
@@ -90,7 +89,6 @@ export default function Principal() {
             <div className="text-shpere">
               <span className="tagcloud"></span>
             </div>
-            <h3 id="info">Tecnologias com que trabalhei</h3>
           </div>
         </div>
       </section>
