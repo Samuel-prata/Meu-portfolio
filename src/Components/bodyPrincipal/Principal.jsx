@@ -64,20 +64,15 @@ export default function Principal() {
             <img
               src="src/assets/social/email.png"
               alt="icon email"
-              width={"50px"}
-              height={"50px"}
             />
             <img
               src={linkGithub}
               alt="icon github"
-              width={"50px"}
-              height={"50px"}
             />
             <img
               src="src/assets/social/linkedin.png"
               alt="icon linkedin"
-              width={"50px"}
-              height={"50px"}
+
             />
           </div>
           <div className="more">
