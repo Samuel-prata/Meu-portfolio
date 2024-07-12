@@ -7,7 +7,6 @@ import "animate.css";
 
 export default function Principal() {
   useEffect(() => {
-    return () => {
       const container = ".tagcloud";
       const texts = [
         "Java",
@@ -36,7 +35,6 @@ export default function Principal() {
         keep: true,
       };
       TagCloud(container, texts, options);
-    };
   }, []);
   return (
     <>
