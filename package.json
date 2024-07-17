@@ -12,9 +12,11 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "react": "^18.3.1",
     "react-awesome-reveal": "^4.2.12",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
     "styled-components": "^6.1.11",
     "TagCloud": "^2.5.0"
   },

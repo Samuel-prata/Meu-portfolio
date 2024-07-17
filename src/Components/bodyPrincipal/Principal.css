@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
 .main{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background-color: #0D0D0D;
     display: flex;
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    height: 40vh;
+    height: 70vh;
 }
 
 .containerSphere{
@@ -35,7 +35,8 @@
     display: flex;
     flex-direction: column;
     color: white;
-    height: 15vh;
+    height: 50vh;
+    width: 50vw;
     justify-content: center;
     align-items: center;
 }
@@ -74,6 +75,7 @@
     align-items: center;
     width: 30%;
     align-self: center;
+
 }
 
 .more{

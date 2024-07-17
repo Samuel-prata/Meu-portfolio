@@ -46,8 +46,8 @@ export default function Principal() {
       <Header />
       <section className="main">
         <div className="containerInfo">
-          <div className="texts">
-            <Fade cascade>
+          <div className="animate__animated animate__zoomIn texts">
+           
               <p>
                 Olá, meu nome é{" "}
                 <span className="animated-span">Samuel Silverio</span>
@@ -55,9 +55,9 @@ export default function Principal() {
               <p>
                 Sou um <span>Desenvolvedor de Sistemas</span>
               </p>
-            </Fade>
+
           </div>
-          <div className="social">
+          <div className="animate__animated animate__zoomIn social">
             <img
               src={linkEmail}
               alt="icon email"
@@ -77,7 +77,7 @@ export default function Principal() {
               height={"50px"}
             />
           </div>
-          <div className="more">
+          <div className="animate__animated animate__zoomIn more">
             <div className="button-more">
               <h3>Mais sobre mim</h3>
             </div>

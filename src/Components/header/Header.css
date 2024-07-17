@@ -1,6 +1,6 @@
 nav{
     background-color: #0D0D0D;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ nav{
 }
 nav p, ul li {
     color: #2BD9A8;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .topics{
@@ -34,4 +34,10 @@ nav p, ul li {
     cursor: pointer;
     color: white;
     transition: background-color 0.2 color;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: #2BD9A8;
 }
