@@ -2,62 +2,58 @@ import { ReactDOM, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
 import Header from "../header/Header";
 import TagCloud from "TagCloud";
-import linkGithub from '../../assets/social/github.png'
-import linkEmail from '../../assets/social/email.png'
-import linkLinkedin from '../../assets/social/linkedin.png'
+import linkGithub from "../../assets/social/github.png";
+import linkEmail from "../../assets/social/email.png";
+import linkLinkedin from "../../assets/social/linkedin.png";
 import "./Principal.css";
 import "animate.css";
 
 export default function Principal() {
-
-
   useEffect(() => {
-      const container = ".tagcloud";
-      const texts = [
-        "Java",
-        "Spring Boot",
-        "Python",
-        "Flask",
-        "Django",
-        "MySQL",
-        "MongoDB",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Styled-Components",
-        "MaterialUI",
-        "Bootstrap",
-        "ReactJS",
-        "Git",
-        "Vscode",
-        "Eclipse",
-        "Tests",
-      ];
-      const options = {
-        radius: 300,
-        maxSpeed: "normal",
-        initSpeed: "normal",
-        keep: true,
-      };
-      TagCloud(container, texts, options);
+    const container = ".tagcloud";
+    const texts = [
+      "Java",
+      "Spring Boot",
+      "Python",
+      "Flask",
+      "Django",
+      "MySQL",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Styled-Components",
+      "MaterialUI",
+      "Bootstrap",
+      "ReactJS",
+      "Git",
+      "Vscode",
+      "Eclipse",
+      "Tests",
+    ];
+    const options = {
+      radius: 300,
+      maxSpeed: "normal",
+      initSpeed: "normal",
+      keep: true,
+    };
+    TagCloud(container, texts, options);
   }, []);
   return (
     <>
       <Header />
       <section className="main">
         <div className="containerInfo">
-          <div className="animate__animated animate__zoomIn texts">
-           
-              <p>
-                Olá, meu nome é{" "}
-                <span className="animated-span">Samuel Silverio</span>
-              </p>
-              <p>
-                Sou um <span>Desenvolvedor de Sistemas</span>
-              </p>
-
+          <div className="animate__animated animate__zoomIn texts" id="texts">
+            <p>
+              Olá, meu nome é{" "}
+              <span className="animated-span">Samuel Silverio</span>
+            </p>
+            <p>
+              Sou um <span>Desenvolvedor de Sistemas</span>
+            </p>
           </div>
-          <div className="animate__animated animate__zoomIn social">
+          <div className="animate__animated animate__zoomIn social" id="social">
             <img
               src={linkEmail}
               alt="icon email"
@@ -81,7 +77,6 @@ export default function Principal() {
             <div className="button-more">
               <h3>Mais sobre mim</h3>
             </div>
-
           </div>
         </div>
         <div className="containerSphere">
