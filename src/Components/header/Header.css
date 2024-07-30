@@ -1,43 +1,59 @@
-nav{
-    background-color: #0D0D0D;
-    height: 15vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: #2BD9A8 solid 2px;
+nav {
+  background-color: #0d0d0d;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #2bd9a8 solid 2px;
 }
 
-.container1{
-    display: flex;
-    align-items: center;
-    width: 20%;
-    justify-content: space-between;
+.container1 {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
 }
-.container2{
-    width: 40%;
-}
-nav p, ul li {
-    color: #2BD9A8;
-    font-size: 30px;
+.container2 {
+  width: 40%;
 }
 
-.topics{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: 24px;
+.container1 p {
+  border-bottom: 1px solid transparent;
 }
 
-.topics li:hover{
-    text-decoration: underline;
-    cursor: pointer;
-    color: white;
-    transition: background-color 0.2 color;
+.container1 p:hover {
+  cursor: pointer;
+  color: white;
+  border-bottom: 1.5px solid #2bd9a8;
+  transition: all 0.6s ease-in;
+}
+nav p,
+ul li {
+  color: #2bd9a8;
+  font-size: 30px;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 24px;
+}
+
+.topics li {
+  border-bottom: 1px solid transparent;
+}
+
+.topics li:hover {
+  cursor: pointer;
+  color: white;
+  border-bottom: 1.5px solid #2bd9a8;
+  transition: all 0.6s ease-in;
 }
 
 nav a {
-    text-decoration: none;
-    list-style: none;
-    color: #2BD9A8;
+  text-decoration: none;
+  list-style: none;
+  color: #2bd9a8;
 }

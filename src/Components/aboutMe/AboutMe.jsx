@@ -13,7 +13,12 @@ export default function AboutMe() {
         <div className="texts">
           <div className="title">
             <h1 className="animate__animated animate__zoomIn">Sobre mim</h1>
-            <img className="animate__animated animate__zoomIn" src={line} alt="" />
+            <img
+              className="animate__animated animate__zoomIn"
+              id="line"
+              src={line}
+              alt=""
+            />
           </div>
           <div className="animate__animated animate__zoomIn text-aboutme">
             <p>
